@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+
+.other {
+    flex: 4;
+    /* background-color: turquoise; */
+}
