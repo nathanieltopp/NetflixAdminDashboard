@@ -8,7 +8,6 @@ export default function SideBar() {
 
     function handleLinkChange(new_link) {
         setActiveLink(new_link);
-        console.log("handle change called");
     }
 
     return (
