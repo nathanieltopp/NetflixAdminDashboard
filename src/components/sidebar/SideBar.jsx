@@ -1,10 +1,19 @@
 import { AttachMoney, LineStyle, PermIdentity, Storefront, Timeline, TrendingUp } from '@material-ui/icons';
-import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import "./sidebar.css";
 
 export default function SideBar() {
+    const location = useLocation();
     const [activeLink, setActiveLink] = useState("/");
+
+    useEffect(() => {
+        setActiveLink(location.pathname);
+        console.log()
+    }, []);
+
+    useEffect(() => {
+    },[activeLink]);
 
     function handleLinkChange(new_link) {
         setActiveLink(new_link);
