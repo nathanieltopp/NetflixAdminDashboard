@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
+import NewUser from "./pages/newUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
 
 
 function App() {
@@ -20,7 +23,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route exact  path="/users" element={<UserList />}/>
-          <Route  path="/users/:userid" element={<User />}/>
+          <Route exact  path="/users/:userid" element={<User />}/>
+          <Route exact  path="/newUser" element={<NewUser />}/>
+          <Route exact  path="/products" element={<ProductList />}/>
+          <Route exact  path="/products/:productid" element={<Product />}/>
+          <Route exact  path="/newProduct" element={<NewUser />}/>
         </Routes>
       </div>
     </Router>

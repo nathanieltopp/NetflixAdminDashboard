@@ -49,6 +49,21 @@ export const userData = [
     }
   ];
 
+  export const productData = [
+    {
+      name: 'Jan',
+      sales: 4000
+    },
+    {
+        name: 'Feb',
+        sales: 3000
+    },
+    {
+        name: 'Mar',
+        sales: 4000
+    }
+  ];
+
 
   export const userRows = [
     { 
@@ -130,5 +145,89 @@ export const userData = [
         email: "jon@gmail.com",
         status: "active",
         transaction: "$120.00"
+    },
+  ];
+
+
+  export const productRows = [
+    { 
+        id: 1, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 2, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 3, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 4, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 5, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 6, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 7, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 8, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 9, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
+    },
+    { 
+        id: 10, 
+        name: 'Apple Airpods', 
+        img: 'https://www.mytrendyphone.eu/images/Apple-AirPods-2-with-Wireless-Charging-Case-MRXJ2ZM-A-White-21032019-01-p.jpg', 
+        stock: 123,
+        status: "active",
+        price: "$120.00"
     },
   ];

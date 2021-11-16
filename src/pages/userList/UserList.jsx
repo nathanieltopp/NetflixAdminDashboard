@@ -7,7 +7,12 @@ import { useState } from "react";
 
 
 export default function UserList() {
-    const [data, setData] = useState(userRows)
+    const [data, setData] = useState(userRows);
+
+    function handleDelete(id) {
+        setData(data.filter(d => d.id !== id));
+    }
+
     const columns = [
         { field: 'id', headerName: 'ID', width: 90 },
         { field: 'user', headerName: 'User', width:200, renderCell: (params) => {
@@ -39,10 +44,6 @@ export default function UserList() {
         //   width: 160,
         // },
       ];
-
-      function handleDelete(id) {
-          setData(data.filter(d => d.id !== id));
-      }
 
     return (
         <div className="userList">
