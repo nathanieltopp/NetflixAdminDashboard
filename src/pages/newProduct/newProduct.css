@@ -1,0 +1,43 @@
+.newProduct {
+    flex: 4;
+}
+
+.newProductForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.newProductForm input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.newProductFormLabel {
+    font-weight: 600;
+    color: gray;
+    margin: 10px 0;
+}
+
+.newProductFormInput {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.newProductFormSelect {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.newProductButton {
+    align-self: flex-start;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: darkblue;
+}
