@@ -16,7 +16,7 @@ export default function WidgetLg() {
                 </tr>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
-                        <img className="widgetLgImage" src="images/user1.jpeg" alt="user1" />
+                        <img className="widgetLgImage" src="images/user1.jpeg" alt="" />
                         <span className="widgetLgName">Nathaniel Topp</span>
                     </td>
                     <td className="widgetLgDate">2 Jun 2021</td>
@@ -27,7 +27,7 @@ export default function WidgetLg() {
                 </tr>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
-                        <img className="widgetLgImage" src="images/user1.jpeg" alt="user1" />
+                        <img className="widgetLgImage" src="images/user1.jpeg" alt="" />
                         <span className="widgetLgName">Nathaniel Topp</span>
                     </td>
                     <td className="widgetLgDate">2 Jun 2021</td>
@@ -38,7 +38,7 @@ export default function WidgetLg() {
                 </tr>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
-                        <img className="widgetLgImage" src="images/user1.jpeg" alt="user1" />
+                        <img className="widgetLgImage" src="images/user1.jpeg" alt="" />
                         <span className="widgetLgName">Nathaniel Topp</span>
                     </td>
                     <td className="widgetLgDate">2 Jun 2021</td>

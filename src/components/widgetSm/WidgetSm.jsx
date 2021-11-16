@@ -7,7 +7,7 @@ export default function WidgetSm() {
             <span className="widgetSmTitle">New Join Members</span>
             <ul className="widgetSmList">
                 <li className="widgetSmListItem">
-                    <img className="widgetSmImage" src="images/user1.jpeg" alt="user image 1" />
+                    <img alt="" className="widgetSmImage" src="images/user1.jpeg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Anna Keller</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
@@ -18,7 +18,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img className="widgetSmImage" src="images/user1.jpeg" alt="user image 1" />
+                    <img alt="" className="widgetSmImage" src="images/user1.jpeg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Anna Keller</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
@@ -29,7 +29,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img className="widgetSmImage" src="images/user1.jpeg" alt="user image 1" />
+                    <img alt="" className="widgetSmImage" src="images/user1.jpeg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Anna Keller</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
@@ -40,7 +40,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img className="widgetSmImage" src="images/user1.jpeg" alt="user image 1" />
+                    <img alt="" className="widgetSmImage" src="images/user1.jpeg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Anna Keller</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>
@@ -51,7 +51,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img className="widgetSmImage" src="images/user1.jpeg" alt="user image 1" />
+                    <img alt="" className="widgetSmImage" src="images/user1.jpeg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Anna Keller</span>
                         <span className="widgetSmUserTitle">Software Engineer</span>

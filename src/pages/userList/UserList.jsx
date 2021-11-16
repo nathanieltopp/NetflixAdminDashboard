@@ -41,7 +41,7 @@ export default function UserList() {
       ];
 
       function handleDelete(id) {
-          setData(data.filter(d => d.id != id));
+          setData(data.filter(d => d.id !== id));
       }
 
     return (
@@ -50,7 +50,7 @@ export default function UserList() {
                 rows={data}
                 columns={columns}
                 pageSize={8}
-                rowsPerPageOptions={[5]}
+                rowsPerPageOptions={[8]}
                 checkboxSelection
                 disableSelectionOnClick
             />
