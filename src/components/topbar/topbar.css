@@ -59,3 +59,34 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+.profileMenu{
+    position: relative;
+}
+
+.profileMenu:hover .menu{
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    right: 2px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    color: white;
+    transition: .5s;
+    display: none;
+    transition: .5s;
+}
+
+.menuItem{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menuItem:hover {
+    color: rgb(202, 199, 199);
+}
