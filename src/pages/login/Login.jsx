@@ -9,7 +9,6 @@ export default function Login() {
     const {isFetching, dispatch} = useContext(AuthContext)
 
     function handleSubmit(){
-        console.log(email, password);
         loginCall({email, password}, dispatch);
     }
 

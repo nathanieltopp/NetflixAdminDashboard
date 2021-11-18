@@ -15,7 +15,7 @@ export default function Home() {
         try {
             const res = await axios.get(`users/stats`, {
                 headers: {
-                    token: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOTRmZDI5ZGRjZTkzYzJiMGI0NjcwYiIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzNzE1NDIyMCwiZXhwIjoxNjM3NTg2MjIwfQ.kkv0t2QF3oGQgK0__pRPmqBmQisQwqv_2ThDdz3Tloc`
+                    token: `Bearer ${JSON.parse(localStorage.getItem("user").accessToken)}`
                 }
             });
             const processedData = res.data.map(item => ({name:MONTHS[item._id - 1], "New User": item.total}));
